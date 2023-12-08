@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #588157;
+}
+
+.app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px); /* akan menampilkan sticky notes selebar 200px dan jika browser resolusi mengecil maka sticky notes akan pindah kebawah */
+    padding: 24px;
+    gap: 24px;
+}
+
+.note{
+    height: 200px;
+    box-sizing: border-box;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+    background-color: #fefae0;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.add-note{
+    height: 200px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    font-size: 5rem;
+    color: #a3b18a;
+    transition: 0.5s;
+}
+
+.add-note:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}

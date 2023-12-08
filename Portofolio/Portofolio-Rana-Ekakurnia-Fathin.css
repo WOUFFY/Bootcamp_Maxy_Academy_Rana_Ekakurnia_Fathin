@@ -1,0 +1,80 @@
+#parallax-1{
+    background-image: url("img/bg2.jpg");
+    background-size: cover;
+    height: 50rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#aboutme{
+    padding: 5rem 0;
+}
+
+#img-person img{
+    object-fit: cover;
+    min-height: 10rem;
+}
+
+#text-1{
+    text-align: justify;
+}
+
+#parallax-2{
+    background-image: url("img/bg3.jpg");
+    background-size: cover;
+    height: 20rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card{
+    width: 90%;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+#projects{
+    padding: 3rem 0;
+}
+
+#parallax-3{
+    background-image: url("img/bg4.jpg");
+    background-size: cover;
+    height: 15rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#primary{
+    padding-top: 3rem;
+}
+
+#secondary{
+    padding-top: 3rem;
+}
+
+#icon{
+    font-size: 5rem;
+}
+
+#skills2{
+    padding-bottom: 5rem;
+}
+
+#parallax-4{
+    background-image: url("img/bg1.jpg");
+    background-size: cover;
+    height: 15rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact{
+    padding: 10rem 5rem;
+}

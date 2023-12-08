@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYC Page</title>
+</head>
+<body>
+    <h1>Data Diri</h1>
+    <div class="nama">
+        <label for="nama">Nama</label>
+        <input type="text" name="nama" id="nama">
+    </div>
+    <div class="kelamin">
+        <label for="kelamin">Jenis Kelamin</label>
+        <input type="radio" name="kelamin" id="kelamin" value="pria">Pria
+        <input type="radio" name="kelamin" id="kelamin" value="wanita">Wanita
+    </div>
+    <div class="tgl-lahir">
+        <label for="tgl-lahir">Tanggal Lahir</label>
+        <input type="text" name="tgl-lahir" id="tgl-lahir">
+    </div>
+    <div class="kota">
+        <label for="kota">Kota</label>
+        <select name="kota" id="kota">
+            <option value="jakarta">Jakarta</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Bekasi">Bekasi</option>
+            <option value="Bogor">Bogor</option>
+        </select>
+    </div>
+    <div class="hp">
+        <label for="hp">No. Handphone</label>
+        <input type="text" name="hp" id="hp">
+    </div>
+
+    <h1>Data Pelengkap</h1>
+    <div class="ktp">
+        <label for="ktp">No. KTP</label>
+        <input type="text" name="ktp" id="ktp">
+    </div>
+    <div class="foto">
+        <label for="foto">Foto</label>
+        <input type="file" name="foto" id="foto">
+    </div>
+
+    <h1>Data Pengguna</h1>
+    <div class="username">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+    </div>
+    <div class="pass">
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass">
+    </div>
+
+    <h1>Data Konfirmasi</h1>
+    <div class="konfirmasi">
+        <p>Apa yang sudah ditulis disini memiliki kondisi yang baru dikonfirmasi</p>
+        <input type="checkbox" name="check" id="check">Anda Setuju dengan peraturan kami
+        <br>
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>

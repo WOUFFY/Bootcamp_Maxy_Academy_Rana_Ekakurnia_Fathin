@@ -1,0 +1,32 @@
+{
+  "cwd": "E:\\VS CODE\\Maxy Academy\\Day 7\\Test",
+  "type": [
+    "web",
+    "cordova"
+  ],
+  "name": "My App",
+  "framework": "core",
+  "template": "single-view",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": true,
+    "iconFonts": true
+  },
+  "customBuild": false,
+  "pkg": "io.framework7.myapp",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  }
+}

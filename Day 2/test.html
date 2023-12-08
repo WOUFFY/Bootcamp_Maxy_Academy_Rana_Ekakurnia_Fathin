@@ -1,0 +1,101 @@
+<!-- Nama: Rana Ekakurnia Fathin -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REF.co</title>
+    
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <h1><a id="navbar-brand" href="#" class="navbar-brand font-weight-bold">REF.co</a></h1>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link font-weight-bold" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link font-weight-bold" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link font-weight-bold" href="#">Account</a></li>
+                    <li class="nav-item"><a class="nav-link font-weight-bold" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- welcome -->
+    <div class="container-fluid d-flex align-items-center justify-content-center flex-column" id="parallax">
+        <p id="parallax-text" class="display-1 text-center align-items-center font-weight-bold">WELCOME</p>
+        <p id="parallax-text" class="h3 text-center align-items-center font-weight-bold">Selamat Datang</p>
+    </div> <!-- parallax effect -->
+
+    <!-- content  -->
+    <div class="container-fluid d-flex flex-row justify-content-center" id="content-2">
+        <div class="container">
+            <h1 class="display-3 font-weight-normal">Bootstrap 4</h1>
+            <p class="h3">Ini adalah website yang dibuat menggunakan bootstrap</p>
+            <p class="lead">Walaupun sulit belajar untuk yang pertama kalinya karena harus menghafal dan mengetahui masing - masing dari kegunaan atributnya, namun bootsrtrap sangat membanru untuk menyelesaikan website dengan cepat apabila kita sudah mengerti component serta utilities apa saja yang ada dalam bootsrtrap serta bagaimana cara kerjanya.</p>
+        </div>
+        <div class="container" id="img-person">
+            <img src="img/person.png" class="img-fluid" alt="">
+        </div>
+    </div>
+
+    <!-- carousel -->
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="5000">
+                <img src="img/Screenshot (397).png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="5000">
+                <img src="img/Screenshot (394).png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="5000">
+                <img src="img/Screenshot (396).png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+
+    <!-- content -->
+    <div class="container-fluid d-flex flex-row justify-content-center" id="content-3">
+        <div class="container">
+            <h1 class="display-3 font-weight-normal">DedSec</h1>
+            <p class="h3">Grup misterius yang berjalan dalam dunia cyber</p>
+            <p class="lead">Berkembangnya teknologi membuat beberapa warga menjadi cemas akan privasi mereka karena sistem CtOS yang memudahkan antara individu untuk saling berkomunikasi, selain itu perusahaan Blume yang ingin membuat suatu sistem agar mereka bisa memantau seluruh aktivitas warga San Francisco menimbulkan suatu krisis privasi, grup DedSec yang selalu memihak warga San Francisco akan selalu membantu mereka dari balik bayangan.</p>
+        </div>
+        <div class="container">
+            <h1 class="display-3 font-weight-normal">Marcus & Horatio</h1>
+            <p class="h3">Mereka adalah rekan dalam grup DedSec</p>
+            <p class="lead">Walaupun pertemanan mereka tidak berlangsung lama karena misi dan tugas mereka yang berbahaya namun marcus tetap menghormati Horatio sebagai temannya. Selain itu Sitara, Josh, Raymond, dan juga Wrench akan selalu mengingat Horatio dalam hati mereka sebagai salah satu anggota DedSec</p>
+        </div>
+    </div>
+
+    <div id="footer" class="container-fluid bg-dark text-light">
+        <p class="h6 text-center align-items-center font-weight-normal">Copyright 2023 REF.co Rana Ekakurnia Fathin, Jakarta Indonesia. All rights reserved.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+</body>
+</html>
+
+<!-- Nama: Rana Ekakurnia Fathin -->

@@ -1,0 +1,105 @@
+/* Rana EKakurnia Fathin */
+
+#cont-1{
+    padding: 1rem;
+    margin: 0;
+    background-color: #131414;
+}
+
+#company-name{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#login-btn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+#btn{
+    background-color: whitesmoke;
+}
+
+#parallax{
+    background-image: url("img/bg1.jpg");
+    background-size: cover;
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+#parallax-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 50px;
+
+}
+
+#segment{
+    margin: 0;
+    background-color: #131414;
+    padding: 3rem;
+}
+
+#img-class{
+    padding: 5px;
+    background-color: #131414;
+}
+
+#accordion{
+    border-radius: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 3rem;
+    background-color: #131414;
+}
+
+#accordion span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#accordion h1{
+    text-align: center;
+}
+
+#parallax-2{
+    background-image: url("img/bg2.jpg");
+    background-size: cover;
+    height: 80%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    background-color: #131414;
+    padding: 5rem 0;
+    color: whitesmoke;
+}
+
+#footer p{
+    text-align: center;
+}
+
+#footer .column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer a{
+    color: whitesmoke;
+}

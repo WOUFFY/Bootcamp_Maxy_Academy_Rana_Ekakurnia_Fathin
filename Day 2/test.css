@@ -1,0 +1,52 @@
+#navbar-brand{
+    font-size: 2.5rem;
+}
+
+#parallax{
+    background-image: url("img/autumn_trees_mountains_fog_landscape_waterfall_nature_clouds_sky_4k_hd_nature-1920x1080.jpg");
+    background-size: cover;
+    height: 50rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+#content-2{
+    padding: 10rem 5rem;
+}
+
+#content-2 p{
+    text-align: justify;
+}
+
+#content-3{
+    padding: 10rem 5rem;
+}
+
+#content-3 p{
+    text-align: justify;
+}
+
+#img-person{
+    object-fit: cover;
+}
+
+.carousel .carousel-item {
+    height: 500px;
+}
+  
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+    opacity: 0.9;
+}
+
+#footer{
+    border-top: 0.1rem solid;
+    padding: 1rem;
+    margin-top: 5rem;
+}

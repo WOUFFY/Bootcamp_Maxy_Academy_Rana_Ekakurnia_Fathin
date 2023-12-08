@@ -1,0 +1,60 @@
+<template>
+    <div class="page" data-name="catalog">
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner sliding">
+          <div class="title">Camera</div>
+        </div>
+      </div>
+      <div class="page-content">
+        <div class="camera">
+            <video id="video">Video  stream is not available</video>
+            <button id="startbutton" class="button button-fill" @click=${takePhoto}>Take Photo</button>
+        </div>
+        <canvas id="canvas"></canvas>
+        <div class="output">
+            <img alt="this screen capture will be seen in this box" id="photo"/>
+        </div>
+      </div>
+    </div>
+</template>
+<script>
+    export default (props, { $store }) => {
+      const width = 320;
+      const height = 0;
+      const streaming = false;
+
+      let video = null;
+      let canvas = null;
+      let photo = null;
+
+      const takePhoto = () => {
+        canvas = document.getElementById('canvas');
+        photo = document.getElementById('photo');
+        
+        canvas.height = video.videoHeight;
+        canvas.width = video.videoWidth;
+        canvas.getContext('2d').drawImage(video, 0, 0);
+    }
+
+      const startup = () => {
+        navigator.mediaDevices.getUserMedia({video:true, audio:false}).then(function(stream){
+            video = document.getElementById('video');
+            console.log(video);
+            video.srcObject = stream;
+            video.play();
+        }).catch((err) => {
+            console.log("An error occured" + err);
+        });
+      }
+      
+      if(navigator.mediaDevices){
+        startup();
+      }else{
+        alert("browser tidak mendukung  atau anda harus mengizinkan browser untuk mengakses camera anda");
+      }
+
+      return $render;
+    }
+  
+  </script>
