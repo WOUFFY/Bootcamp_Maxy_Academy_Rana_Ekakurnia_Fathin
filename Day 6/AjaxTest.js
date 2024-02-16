@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $('#srch-btn').click(function (event){
         event.preventDefault();
+        $("#container-movie").html("");
         let searchText = $('#search-Input').val();
         getMovies(searchText);
     });
@@ -39,6 +40,7 @@ function getMovies(searchText){
         success : function(result){
             if(result.length !== 0){
                 console.log(result);
+                
                 $.each(result, function(i,e){
                     $("#container-movie").append(`
                         <div class="col">
@@ -54,6 +56,7 @@ function getMovies(searchText){
                         </div>
                     `);
                 })
+                $("#search-Input").val("");
             }else{
                 $("#container-movie").html(`
                     <div class="col">
@@ -62,5 +65,6 @@ function getMovies(searchText){
                 `)
             }
         }
+
     })
 }
