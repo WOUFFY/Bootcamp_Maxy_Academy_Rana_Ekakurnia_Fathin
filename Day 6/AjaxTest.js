@@ -5,7 +5,16 @@ $(document).ready(function(){
         let searchText = $('#search-Input').val();
         getMovies(searchText);
     });
+    
+    $('#search-Input').on('keyup', function(e){
+        if(e.which=== 13){
+            $("#container-movie").html("");
+            let searchText = $('#search-Input').val();
+            getMovies(searchText);
+        }
+    });
 });
+
 
 function getMovies(searchText){
     // let containerMovie = $("#container-movie")
